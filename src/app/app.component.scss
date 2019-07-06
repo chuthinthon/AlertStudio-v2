@@ -1,0 +1,30 @@
+.menubar {
+    width: 100%;
+    height: 50px;
+
+ }
+ .menubar ul.menu {
+    position: fixed;
+    z-index: 1;
+    list-style: none;
+    float: right;
+    font-size: 15px;
+    font-family: 'Khand', sans-serif;
+
+ }
+ .menubar ul.menu li{
+    float: left;
+    margin-right: 30px;
+ }
+ .menubar ul.menu li a {
+  text-decoration: none;
+  color: #333;
+  border-bottom: 2px solid transparent;
+  padding-bottom: 20px;
+  transition: all 0.3s ease;
+ }
+ .menubar ul.menu li a:hover{
+  border-bottom: 3px solid rgb(190, 22, 50);
+  padding-bottom: 0px;
+ }
+ 
